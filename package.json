@@ -9,10 +9,12 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "semantic-ui-react": "2.0.1",
+    "semantic-ui-css": "2.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "REACT_APP_TARGET_ENV=DEV_LOCAL react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "mobx": "^6.0.4",
+    "superagent": "^6.1.0",
+    "superagent-promise": "^1.1.0"
   }
 }
