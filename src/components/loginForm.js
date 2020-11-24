@@ -62,7 +62,7 @@ class LoginForm extends React.Component {
                                 <Form.Input
                                     icon='user'
                                     iconPosition='left'
-                                    label='Username'
+                                    label='Логин'
                                     placeholder='Username'
                                     value={this.state.username}
                                     onChange={this.handleUserNameChange}
@@ -70,7 +70,7 @@ class LoginForm extends React.Component {
                                 <Form.Input
                                     icon='lock'
                                     iconPosition='left'
-                                    label='Password'
+                                    label='Пароль'
                                     type='password'
                                     value={this.state.password}
                                     onChange={this.handlePasswordChange}
