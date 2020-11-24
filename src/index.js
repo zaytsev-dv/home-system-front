@@ -1,8 +1,20 @@
 import ReactDOM from "react-dom";
+import App from "./App";
+import React from "react";
 
-import LoginForm from "./components/loginForm";
 
-ReactDOM.render(
-            <LoginForm />,
-    document.getElementById("root")
-);
+function setup() {
+    console.log("run setup function")
+}
+
+function run() {
+    const container = document.getElementById("root");
+    ReactDOM.render(
+        <App />,
+        container
+    );
+}
+
+// setup().then(() => run());
+setup();
+run();
